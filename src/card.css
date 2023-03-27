@@ -1,0 +1,24 @@
+.product-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-card:hover .product-card-content {
+    visibility: visible;
+  }
+  
+  .product-card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+    opacity: 0.8;
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* This will hide the card content by default, and show it only when the card is hovered over. The position: relative and overflow: hidden on the card element are necessary to create a cont */
