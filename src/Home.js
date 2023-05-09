@@ -8,7 +8,7 @@ import { Box, Grid, createTheme, makeStyles } from '@mui/material';
 import { alignProperty } from '@mui/material/styles/cssUtils';
 import Button from '@mui/material/Button';
 import { ThemeProvider } from '@emotion/react';
-// import { removeFromCart,addToCart } from './Store';
+import { removeFromCart,addToCart } from './Store';
 const theme = createTheme(
     {
         palette:
